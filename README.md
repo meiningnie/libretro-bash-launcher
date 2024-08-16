@@ -27,6 +27,8 @@ Note: Bash scripts can harm your system. Be careful to ensure that the bash scri
 
 Just select and execute any script from your hard drive, in exactly the same way as finding and launching game roms.
 
+There're some scripts in the "scripts" directory, which I often use. But they may only work in my Environment (Ubuntu 24.04). If you want to use them, you may need to make some modifications to suit your own environment.
+
 Note: The script file does **NOT** need to have executable permissions, but **MUST** end with a ".sh" extension.
 
 
