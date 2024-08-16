@@ -27,7 +27,7 @@ Note: Bash scripts can harm your system. Be careful to ensure that the bash scri
 
 Just select and execute any script from your hard drive, in exactly the same way as finding and launching game roms.
 
-Note: This core only supports the "sh" file extension. Make sure your script file ends with ".sh".
+Note: The script file does **NOT** need to have executable permissions, but **MUST** end with a ".sh" extension.
 
 
 ## Contributors

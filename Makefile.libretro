@@ -704,6 +704,7 @@ endif
 else
 	$(LD) $(LINKOUT)$@ $(SHARED) $(OBJECTS) $(LDFLAGS) $(LIBS)
 endif
+	chmod a-x $@
 	@echo "** BUILD SUCCESSFUL! GG NO RE **"
 
 %.o: %.c
