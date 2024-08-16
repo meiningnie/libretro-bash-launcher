@@ -37,11 +37,22 @@ Note: The script file does **NOT** need to have executable permissions, but **MU
 - Meining NIE (meiningnie@gmail.com)
 
 
-## Other Comments - For Flashing ASUS ROG Ally to Ubuntu System
+## Acknowledgements
+
+This project is built upon the framework provided by [libretro-dolphin-launcher](https://github.com/RobLoach/libretro-dolphin-launcher.git), created by [Rob Loach](http://github.com/robloach). I have made modifications to the original source code to suit my needs.
+
+I appreciate the foundational work provided by [Rob Loach](http://github.com/robloach) and hope that my modifications contribute positively to the community.
+
+
+---
+
+## Appendix: How to install Ubuntu on ASUS ROG Ally.
 
 My "ASUS ROG Ally" is a nice toy, but Windows sucks. It's always trying to get my attention and cause trouble, not to mention the inexplicable power consumption and endless updates.
 
-So I've finally decided to install Ubuntu 24.04 with RetroArch on it. For an old boy like me, RetroArch is more than enough.
+So I've finally decided to install Ubuntu 24.04 with RetroArch on it. For an old boy like me, RetroArch is more than enough. It looks so good:
+
+![ASUS ROG Ally with Ubuntu](rogally.jpg)
 
 If you happen to want to do the same thing, here are some tips that could help make your life easier.
 
@@ -83,8 +94,4 @@ If you happen to want to do the same thing, here are some tips that could help m
 9. Make it possible to adjust the screen brightness through controller buttons. This is the most tricky part, because ROG Ally doesn't have some physical buttons to adjust the screen brightness. This is serious. Remember, we deleted the top bar in the previous step. Even if you didn't do it, you definitely don't want to get out of RA and use the touch screen to operate the system menu. Fortunately, the "M1" key combination comes with some factory preset keyboard shortcuts. For example, holding down "M1" (the button on the back) and pressing "up" or pressing "down" will trigger "super + d" or trigger "super + tab" respectively. Theses two are used to show Desktop and to switch window. Since we have neither Desktop nor windows, it is ideal to map them to adjust screen brightness. You also need to install "dconf-editor", which allows you to set keyboard shortcut for brightness changing.
 
 
-## Acknowledgements
 
-This project is built upon the framework provided by [libretro-dolphin-launcher](https://github.com/RobLoach/libretro-dolphin-launcher.git), created by [Rob Loach](http://github.com/robloach). I have made modifications to the original source code to suit my needs.
-
-I appreciate the foundational work provided by [Rob Loach](http://github.com/robloach) and hope that my modifications contribute positively to the community.
